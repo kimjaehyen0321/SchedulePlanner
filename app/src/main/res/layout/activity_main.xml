@@ -15,5 +15,30 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:firstDayOfWeek="2"
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="내용을 입력하세요"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일정 추가"
+        android:layout_gravity="center"
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일정 삭제"
+        android:layout_gravity="center"
         />
 </LinearLayout>
