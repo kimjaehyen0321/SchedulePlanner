@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/SchedulePlanner/app/src/main/res/layout/activity_daily_planner.xml" value="0.25" />
         <entry key="..\:/workspace/SchedulePlanner/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/workspace/SchedulePlanner/app/src/main/res/layout/activity_monthly_schedule.xml" value="0.25" />
       </map>
     </option>
   </component>

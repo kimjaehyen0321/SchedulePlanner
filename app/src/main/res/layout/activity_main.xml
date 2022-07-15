@@ -9,36 +9,35 @@
     tools:context=".MainActivity"
     >
 
-    <CalendarView
-        android:id="@+id/calendarView"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:layout_gravity="center"
-        android:firstDayOfWeek="2"
-
-        />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="내용을 입력하세요"
-        android:layout_gravity="center"
+        android:text="스케줄 플래너"
+        android:textSize="50dp"
+        android:textColor="#000000"
         />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="일정 추가"
         android:layout_gravity="center"
-       />
+        android:layout_marginTop="50dp"
+        android:text="월간 계획표"
+        android:textSize="28dp"
+        />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="일정 삭제"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="일일 계획표"
+        android:textSize="28dp"
         />
+
 </LinearLayout>
