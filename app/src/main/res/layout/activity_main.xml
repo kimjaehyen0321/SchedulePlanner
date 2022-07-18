@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="월간 계획표"
+        android:text="달력"
         android:textSize="28dp"
         />
 
