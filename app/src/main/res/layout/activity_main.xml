@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="일일 계획표"
+        android:text="달력"
         android:textSize="28dp"
         />
 
