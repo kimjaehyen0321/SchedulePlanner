@@ -31,55 +31,63 @@
             android:layout_height="1dp"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:background="#666666"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="일정"
+            />
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="1dp"
             >
 
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            >
+
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="1dp"
-                android:background="#666666"
-                android:gravity="center"
-                android:padding="3dp"
-                android:text="날짜"
+                android:text=""
                 />
 
             <TextView
+                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="1dp"
-                android:background="#666666"
-                android:gravity="center"
-                android:padding="3dp"
-                android:text="일정"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="1dp"
-                android:background="#666666"
-                android:gravity="center"
-                android:padding="3dp"
-                android:text="시간"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="1dp"
-                android:background="#666666"
-                android:gravity="center"
-                android:padding="3dp"
-                android:text="체크"
+                android:text=""
                 />
 
         </TableRow>
     </TableLayout>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="일정"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="저장"
+        />
+
 </LinearLayout>
